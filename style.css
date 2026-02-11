@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* text-align: center; */
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    background: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choices {
+    width: 165px;
+    height: 165px;    
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
